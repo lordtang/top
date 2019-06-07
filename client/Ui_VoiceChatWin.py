@@ -1,0 +1,133 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'f:\python_work\middle_task\VoiceChatWin.ui'
+#
+# Created by: PyQt5 UI code generator 5.10.1
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_VoiceChatWin(object):
+    def setupUi(self, VoiceChatWin):
+        VoiceChatWin.setObjectName("VoiceChatWin")
+        VoiceChatWin.resize(270, 700)
+        VoiceChatWin.setStyleSheet("background-color: rgb(250, 250, 250);")
+        self.frame = QtWidgets.QFrame(VoiceChatWin)
+        self.frame.setGeometry(QtCore.QRect(0, 0, 270, 220))
+        self.frame.setStyleSheet("background-color: rgb(30, 180, 255);")
+        self.frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame.setObjectName("frame")
+        self.label_2 = QtWidgets.QLabel(self.frame)
+        self.label_2.setGeometry(QtCore.QRect(105, 50, 61, 61))
+        self.label_2.setText("")
+        self.label_2.setPixmap(QtGui.QPixmap("images/05-01.png"))
+        self.label_2.setObjectName("label_2")
+        self.label_3 = QtWidgets.QLabel(self.frame)
+        self.label_3.setGeometry(QtCore.QRect(65, 120, 141, 20))
+        self.label_3.setStyleSheet("color: rgb(255, 255, 255);")
+        self.label_3.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_3.setObjectName("label_3")
+        self.Mini = QtWidgets.QPushButton(self.frame)
+        self.Mini.setGeometry(QtCore.QRect(200, 0, 35, 28))
+        self.Mini.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.Mini.setStyleSheet("border:0px;")
+        self.Mini.setText("")
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap("images/05-06.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.Mini.setIcon(icon)
+        self.Mini.setIconSize(QtCore.QSize(20, 20))
+        self.Mini.setObjectName("Mini")
+        self.Close = QtWidgets.QPushButton(self.frame)
+        self.Close.setGeometry(QtCore.QRect(235, 0, 35, 28))
+        self.Close.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.Close.setStyleSheet("border:0px;")
+        self.Close.setText("")
+        icon1 = QtGui.QIcon()
+        icon1.addPixmap(QtGui.QPixmap("images/05-07.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.Close.setIcon(icon1)
+        self.Close.setIconSize(QtCore.QSize(15, 15))
+        self.Close.setObjectName("Close")
+        self.Micro = QtWidgets.QPushButton(VoiceChatWin)
+        self.Micro.setGeometry(QtCore.QRect(10, 230, 35, 40))
+        self.Micro.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.Micro.setStyleSheet("border:0px;")
+        self.Micro.setText("")
+        icon2 = QtGui.QIcon()
+        icon2.addPixmap(QtGui.QPixmap("images/05-02.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.Micro.setIcon(icon2)
+        self.Micro.setIconSize(QtCore.QSize(32, 32))
+        self.Micro.setObjectName("Micro")
+        self.Volume = QtWidgets.QPushButton(VoiceChatWin)
+        self.Volume.setGeometry(QtCore.QRect(55, 230, 35, 40))
+        self.Volume.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.Volume.setStyleSheet("border:0px;")
+        self.Volume.setText("")
+        icon3 = QtGui.QIcon()
+        icon3.addPixmap(QtGui.QPixmap("images/05-03.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.Volume.setIcon(icon3)
+        self.Volume.setIconSize(QtCore.QSize(32, 32))
+        self.Volume.setObjectName("Volume")
+        self.Video = QtWidgets.QPushButton(VoiceChatWin)
+        self.Video.setGeometry(QtCore.QRect(100, 230, 45, 40))
+        self.Video.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.Video.setStyleSheet("border:0px;")
+        self.Video.setText("")
+        icon4 = QtGui.QIcon()
+        icon4.addPixmap(QtGui.QPixmap("images/05-04.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.Video.setIcon(icon4)
+        self.Video.setIconSize(QtCore.QSize(36, 36))
+        self.Video.setObjectName("Video")
+        self.Signal = QtWidgets.QLabel(VoiceChatWin)
+        self.Signal.setGeometry(QtCore.QRect(155, 235, 40, 30))
+        self.Signal.setCursor(QtGui.QCursor(QtCore.Qt.ArrowCursor))
+        self.Signal.setText("")
+        self.Signal.setPixmap(QtGui.QPixmap("images/05-05.png"))
+        self.Signal.setObjectName("Signal")
+        self.Hang_up = QtWidgets.QPushButton(VoiceChatWin)
+        self.Hang_up.setGeometry(QtCore.QRect(200, 232, 65, 30))
+        self.Hang_up.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.Hang_up.setStyleSheet("border-radius: 10px;\n"
+"border:0px;\n"
+"color: rgb(255, 255, 255);\n"
+"background-color: rgb(255, 0, 0);")
+        self.Hang_up.setObjectName("Hang_up")
+        self.Answer = QtWidgets.QPushButton(VoiceChatWin)
+        self.Answer.setGeometry(QtCore.QRect(200, 232, 65, 30))
+        self.Answer.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.Answer.setStyleSheet("border-radius: 10px;\n"
+"border:0px;\n"
+"color: rgb(255, 255, 255);\n"
+"background-color: rgb(0, 255, 0);")
+        self.Answer.setObjectName("Answer")
+        self.Micro_volume_Slider = QtWidgets.QSlider(VoiceChatWin)
+        self.Micro_volume_Slider.setGeometry(QtCore.QRect(16, 70, 22, 160))
+        self.Micro_volume_Slider.setStyleSheet("border-radius:5px;\n"
+"background-color: rgb(194, 194, 194);")
+        self.Micro_volume_Slider.setMaximum(100)
+        self.Micro_volume_Slider.setSingleStep(2)
+        self.Micro_volume_Slider.setProperty("value", 24)
+        self.Micro_volume_Slider.setOrientation(QtCore.Qt.Vertical)
+        self.Micro_volume_Slider.setObjectName("Micro_volume_Slider")
+        self.Speaker_volume_Slider = QtWidgets.QSlider(VoiceChatWin)
+        self.Speaker_volume_Slider.setGeometry(QtCore.QRect(60, 70, 22, 160))
+        self.Speaker_volume_Slider.setStyleSheet("border-radius:5px;\n"
+"background-color: rgb(194, 194, 194);")
+        self.Speaker_volume_Slider.setMaximum(100)
+        self.Speaker_volume_Slider.setSingleStep(2)
+        self.Speaker_volume_Slider.setProperty("value", 24)
+        self.Speaker_volume_Slider.setOrientation(QtCore.Qt.Vertical)
+        self.Speaker_volume_Slider.setObjectName("Speaker_volume_Slider")
+
+        self.retranslateUi(VoiceChatWin)
+        self.Mini.clicked.connect(VoiceChatWin.showMinimized)
+        QtCore.QMetaObject.connectSlotsByName(VoiceChatWin)
+
+    def retranslateUi(self, VoiceChatWin):
+        _translate = QtCore.QCoreApplication.translate
+        VoiceChatWin.setWindowTitle(_translate("VoiceChatWin", "VoiceChatWin"))
+        self.label_3.setText(_translate("VoiceChatWin", "等待对方接收邀请..."))
+        self.Hang_up.setText(_translate("VoiceChatWin", "挂断"))
+        self.Answer.setText(_translate("VoiceChatWin", "接听"))
+

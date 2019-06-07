@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Microsoft YaHei";
+}
+.nav{
+    height: 50px;
+    /* width: 960px; */
+    background-color:none;
+    margin: 5px auto;  
+    border-bottom: 1px solid rgb(228, 223, 223);
+}
+.logo_img{
+    width: 32px;
+    height: 32px;
+    float: left;
+    position: absolute;
+    top: 15px;
+    left: 500px;
+}
+.navbar{
+    float: left;
+    line-height: 50px;
+    margin-left: 40%;
+}
+.navbar ul li{
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    font-size: 18px;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:rgb(38, 131, 255);
+    padding:0 20px;
+    display: block;
+    height: 50px;
+
+}
+.navbar ul li a:hover{
+    border-bottom: 2px solid rgb(38,131,255)
+}
+
+.menu .menu_img{
+    height: 50px;
+    width: 50px;
+    margin-top:20px;
+}
+.main{
+    height: 400px;
+    background-color: rgb(245,245,245);
+}
+.menu{
+    height: 400px;
+    width:960px;
+    background-color: none;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.menu p{
+    margin-top: 30%;
+}
+.log,.q_list,.feedback{
+    width: 150px;
+    height:180px;
+    float: left;
+    margin-left: 10%;
+    margin-right:6%;
+    margin-top: 10%;
+    /* margin: 0 auto; */
+    text-align: center;
+}
+
+.feedback:hover{
+    background-color: rgb(254, 254, 254);
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px rgb(220, 220, 220);
+}
+.log:hover{
+    background-color: rgb(254, 254, 254);
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px rgb(220, 220, 220);
+}
+.menu a{
+    color: #333333;
+    text-decoration: none;
+    font-size: 18px;
+}
+.q_list:hover{
+    background-color: rgb(254, 254, 254);
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px rgb(220, 220, 220);
+}
+
+/* 跟上一个兄弟元素不能拉开距离 */
+.question{
+    height: 500px;
+    width: 960px;
+    background-color: none;
+    /* border-top:1px solid gray; */
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    margin: 0px auto;
+    /* margin-bottom: 10px; */
+}
+.ques-list{
+    padding-bottom: 1px;
+}
+
+.ques-item-title{
+    font-size: 24px;
+    color: rgb(15, 14, 14);
+    margin-top:5%;
+}
+.ques-item-content{
+    font-size: 18px;
+    color:gray;
+}
+
+.footer{
+    height: 100px;
+    background-color: rgb(235,235,235);
+    font-size: 14px;
+    text-align: center;
+    color:gray;
+    line-height: 45px;
+    margin-top:10px;
+}
+.footer a{
+    color: gray;
+    text-decoration: none;
+}

@@ -1,0 +1,166 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Microsoft YaHei";
+}
+
+
+.nav{
+    height: 50px;
+    /* width: 960px; */
+    background-color:none;
+    margin: 5px auto;  
+    border-bottom: 1px solid rgb(228, 223, 223);
+}
+.logo_img{
+    width: 32px;
+    height: 32px;
+    float: left;
+    position: absolute;
+    top: 15px;
+    left: 500px;
+}
+.navbar{
+    float: left;
+    line-height: 50px;
+    margin-left: 40%;
+}
+.navbar ul li{
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    font-size: 18px;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:rgb(38, 131, 255);
+    padding:0 20px;
+    display: block;
+    height: 50px;
+
+}
+.navbar ul li a:hover{
+    border-bottom: 2px solid rgb(38,131,255)
+}
+#content .banner{
+    height: 600px;
+    background-color: rgb(42, 119, 219);
+    overflow: hidden;
+}
+#content .banner .left{
+    width: 400px;
+    height: 600px;
+    background-color: none;
+    float: left;
+    margin-top:2%;
+    margin-left:15%;
+}
+#content .banner .left .list{
+    list-style: none;
+}
+#content .banner .left .logo{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    left: 130px;
+    bottom: -80px;
+}
+#content .banner .left .slogn{
+    color: #fff;
+    font-size: 42px;
+    text-align: center;
+    font-weight: 400;
+    position: relative;
+    bottom: -90px;
+}
+#content .banner .left .detail{
+    position: relative;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    bottom: -100px;
+}
+
+#content .banner .left .download{
+    display: inline-block;
+    color: rgb(38,131,255);
+    background-color: #fff;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 10px;
+    height: 60px;
+    width: 200px;
+    line-height: 60px;
+    position: relative;
+    left: 80px;
+    bottom: -160px;
+}
+#content .banner .left .download:hover{
+    background-color: #f1f1e8;
+}
+#content .banner .right{
+    width: 500px;
+    height: 600px;
+    background-color: none;
+    float: right;
+    margin-top:2%;
+    margin-right:15%;
+}
+#content .banner .right .display{
+    width: 400px;
+    height: 400px;
+    float: right;
+    margin-right: 100px;
+    margin-top:50px;
+}
+#content .mian{
+    position: relative;
+}
+.main .video{
+    position: relative;
+    background-color: none;
+}
+#content .main .info{
+    position: absolute;
+    top:50%;
+    left: 43%;
+    color: rgb(226, 217, 217);
+    font-size: 42px;
+    text-align: center;
+
+}
+#content .main .feature{
+    width: 1200px;
+    height: 350px;
+    background-color: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#content .main .feature .float{
+    height: 340px;
+    width: 340px;
+    background-color:none;
+    float: left;
+    margin: 10px 30px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+#content .main .feature .float:hover{
+    background-color: rgb(236, 235, 235);
+}
+
+#content .footer{
+    height: 100px;
+    background-color: rgb(235,235,235);
+    font-size: 14px;
+    text-align: center;
+    color:gray;
+    line-height: 45px;
+    margin-top:10px;
+}

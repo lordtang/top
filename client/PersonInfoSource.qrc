@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="pic">
+    <file>images/04-06.png</file>
+    <file>images/04-07.png</file>
+    <file>images/04-08.png</file>
+    <file>images/04-05.png</file>
+    <file>images/04-04.jpg</file>
+    <file>images/04-03.png</file>
+    <file>images/04-01.png</file>
+    <file>images/04-02.png</file>
+  </qresource>
+</RCC>

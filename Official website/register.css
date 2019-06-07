@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Microsoft YaHei"
+}
+.main{
+    position: relative;
+}
+.form{
+    float: right;
+    position: absolute;
+    right: 20%;
+    top:20%;
+}
+.header{
+    /* margin: 0 auto; */
+    width: 600px;
+    height: 50px;
+    background-color: none;
+    margin: 0 auto;
+    border-bottom:none; 
+    margin-top: 50px;
+    float: right;
+    visibility: hidden;
+
+}
+.logo{
+    width: 100px;
+    height: 50px;
+    float: left;
+}
+
+.header span{
+    height: 40px;
+    width: 200px;
+    font-size: 18px;
+    color: gray;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+}
+.logo_img{
+    width: 40px;
+    height: 40px;
+    margin-top:5px;
+    margin-left: 50px;
+}
+.side_img{
+    height: 800px;
+    width: 500px;
+}
+
+.form .welcome{
+    font-size: 46px;
+}
+
+.form .chat{
+    font-size: 24px;
+    margin-top:20px;
+}
+.form .uname{
+    height: 50px;
+    width: 438px;
+    font-size: 18px;
+    padding: 2px;
+}
+.form .upwd{
+    height: 50px;
+    width: 438px;
+    font-size: 18px;
+    padding: 2px;
+}
+.form .uphone{
+    height: 50px;
+    width: 438px;
+    font-size: 16px;
+    padding: 2px;
+}
+.input li{
+    margin: 30px 0px;
+    list-style: none;
+}
+.uinput{
+    border: 1px solid rgb(158, 157, 157);
+    border-radius: 5px;
+    text-indent : 10px;
+}
+.find{
+    font-size: 12px;
+    color: gray;
+    margin-top:10px;
+}
+.btn_register{
+    display: block;
+    width: 445px;
+    height: 60px;
+    background-color:rgb(38, 131, 255);
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 5px;
+    border: 1px #3083ff solid;
+}
+.btn_register:hover{
+    background-color:#3095ff;
+}
+.btn_register:visited{
+    color: white;
+}
+span{
+    font-size: 12px;
+    color:gray;
+}
+.side{
+    width: 500px;
+    height: 750px;
+    background-color: pink;
+    position: relative;
+}
+.side .side_img{
+    width: 125%;
+    height: 125%;
+}
+.side .side_logo{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50px;
+    top:50px;
+}
+.side .top{
+    display: block;
+    color: aliceblue;
+    font-size: 36px;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+
+}

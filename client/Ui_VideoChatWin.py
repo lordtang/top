@@ -1,0 +1,146 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'f:\python_work\middle_task\VideoChatWin.ui'
+#
+# Created by: PyQt5 UI code generator 5.10.1
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_VideoChatWin(object):
+    def setupUi(self, VideoChatWin):
+        VideoChatWin.setObjectName("VideoChatWin")
+        VideoChatWin.resize(430, 760)
+        self.FriendVideoLabel = QtWidgets.QLabel(VideoChatWin)
+        self.FriendVideoLabel.setGeometry(QtCore.QRect(0, 0, 430, 760))
+        self.FriendVideoLabel.setStyleSheet("background-color: rgb(141, 141, 141);")
+        self.FriendVideoLabel.setText("")
+        self.FriendVideoLabel.setObjectName("FriendVideoLabel")
+        self.MyVideoLabel = QtWidgets.QLabel(VideoChatWin)
+        self.MyVideoLabel.setGeometry(QtCore.QRect(10, 10, 120, 150))
+        self.MyVideoLabel.setText("")
+        self.MyVideoLabel.setObjectName("MyVideoLabel")
+        self.label = QtWidgets.QLabel(VideoChatWin)
+        self.label.setGeometry(QtCore.QRect(190, 520, 61, 16))
+        self.label.setStyleSheet("color: rgb(255, 255, 255);")
+        self.label.setAlignment(QtCore.Qt.AlignCenter)
+        self.label.setObjectName("label")
+        self.Mute = QtWidgets.QPushButton(VideoChatWin)
+        self.Mute.setGeometry(QtCore.QRect(95, 570, 50, 50))
+        self.Mute.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.Mute.setStyleSheet("background-color: rgb(250, 250, 250);\n"
+"border-radius:25%;\n"
+"border:0.5px solid rgb(245,245,245);")
+        self.Mute.setText("")
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap("images/06-03.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.Mute.setIcon(icon)
+        self.Mute.setIconSize(QtCore.QSize(30, 30))
+        self.Mute.setObjectName("Mute")
+        self.Switch = QtWidgets.QPushButton(VideoChatWin)
+        self.Switch.setGeometry(QtCore.QRect(195, 570, 50, 50))
+        self.Switch.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.Switch.setStyleSheet("background-color: rgb(250, 250, 250);\n"
+"border-radius:25%;\n"
+"border:0.5px solid rgb(245,245,245);")
+        self.Switch.setText("")
+        icon1 = QtGui.QIcon()
+        icon1.addPixmap(QtGui.QPixmap("images/06-05.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.Switch.setIcon(icon1)
+        self.Switch.setIconSize(QtCore.QSize(30, 30))
+        self.Switch.setObjectName("Switch")
+        self.Volume = QtWidgets.QPushButton(VideoChatWin)
+        self.Volume.setGeometry(QtCore.QRect(295, 570, 50, 50))
+        self.Volume.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.Volume.setStyleSheet("background-color: rgb(250, 250, 250);\n"
+"border-radius:25%;\n"
+"border:0.5px solid rgb(245,245,245);")
+        self.Volume.setText("")
+        icon2 = QtGui.QIcon()
+        icon2.addPixmap(QtGui.QPixmap("images/06-07.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.Volume.setIcon(icon2)
+        self.Volume.setIconSize(QtCore.QSize(30, 30))
+        self.Volume.setObjectName("Volume")
+        self.HangUp = QtWidgets.QPushButton(VideoChatWin)
+        self.HangUp.setGeometry(QtCore.QRect(290, 660, 60, 60))
+        self.HangUp.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.HangUp.setStyleSheet("border-radius:30%;\n"
+"border:0.5px solid rgb(245,245,245);\n"
+"background-color: rgb(244, 84, 84);")
+        self.HangUp.setText("")
+        icon3 = QtGui.QIcon()
+        icon3.addPixmap(QtGui.QPixmap("images/06-09.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.HangUp.setIcon(icon3)
+        self.HangUp.setIconSize(QtCore.QSize(40, 40))
+        self.HangUp.setObjectName("HangUp")
+        self.Mini = QtWidgets.QPushButton(VideoChatWin)
+        self.Mini.setGeometry(QtCore.QRect(360, 0, 35, 28))
+        self.Mini.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.Mini.setStyleSheet("border:0px;")
+        self.Mini.setText("")
+        icon4 = QtGui.QIcon()
+        icon4.addPixmap(QtGui.QPixmap("images/06-01.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.Mini.setIcon(icon4)
+        self.Mini.setIconSize(QtCore.QSize(20, 20))
+        self.Mini.setObjectName("Mini")
+        self.Close = QtWidgets.QPushButton(VideoChatWin)
+        self.Close.setGeometry(QtCore.QRect(395, 0, 35, 28))
+        self.Close.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.Close.setStyleSheet("border:0px;")
+        self.Close.setText("")
+        icon5 = QtGui.QIcon()
+        icon5.addPixmap(QtGui.QPixmap("images/06-02.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.Close.setIcon(icon5)
+        self.Close.setIconSize(QtCore.QSize(15, 15))
+        self.Close.setObjectName("Close")
+        self.label_2 = QtWidgets.QLabel(VideoChatWin)
+        self.label_2.setGeometry(QtCore.QRect(105, 630, 31, 16))
+        self.label_2.setStyleSheet("color: rgb(255, 255, 255);")
+        self.label_2.setObjectName("label_2")
+        self.label_3 = QtWidgets.QLabel(VideoChatWin)
+        self.label_3.setGeometry(QtCore.QRect(165, 630, 111, 16))
+        self.label_3.setStyleSheet("color: rgb(255, 255, 255);")
+        self.label_3.setObjectName("label_3")
+        self.label_4 = QtWidgets.QLabel(VideoChatWin)
+        self.label_4.setGeometry(QtCore.QRect(305, 630, 31, 16))
+        self.label_4.setStyleSheet("color: rgb(255, 255, 255);")
+        self.label_4.setObjectName("label_4")
+        self.Answer = QtWidgets.QPushButton(VideoChatWin)
+        self.Answer.setGeometry(QtCore.QRect(90, 660, 60, 60))
+        self.Answer.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.Answer.setStyleSheet("border-radius:30%;\n"
+"border:0.5px solid rgb(245,245,245);\n"
+"background-color: rgb(0, 170, 0);")
+        self.Answer.setText("")
+        icon6 = QtGui.QIcon()
+        icon6.addPixmap(QtGui.QPixmap("images/06-10.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.Answer.setIcon(icon6)
+        self.Answer.setIconSize(QtCore.QSize(40, 40))
+        self.Answer.setObjectName("Answer")
+        self.HeadPic = QtWidgets.QLabel(VideoChatWin)
+        self.HeadPic.setGeometry(QtCore.QRect(160, 270, 121, 111))
+        self.HeadPic.setText("")
+        self.HeadPic.setObjectName("HeadPic")
+        self.Volume_slider = QtWidgets.QSlider(VideoChatWin)
+        self.Volume_slider.setGeometry(QtCore.QRect(309, 410, 22, 160))
+        self.Volume_slider.setStyleSheet("background-color: rgb(197, 197, 197);\n"
+"border-radius:5px;")
+        self.Volume_slider.setMaximum(100)
+        self.Volume_slider.setSingleStep(2)
+        self.Volume_slider.setProperty("value", 24)
+        self.Volume_slider.setOrientation(QtCore.Qt.Vertical)
+        self.Volume_slider.setObjectName("Volume_slider")
+
+        self.retranslateUi(VideoChatWin)
+        self.Mini.clicked.connect(VideoChatWin.showMinimized)
+        QtCore.QMetaObject.connectSlotsByName(VideoChatWin)
+
+    def retranslateUi(self, VideoChatWin):
+        _translate = QtCore.QCoreApplication.translate
+        VideoChatWin.setWindowTitle(_translate("VideoChatWin", "VideoChatWin"))
+        self.label.setText(_translate("VideoChatWin", "00:00"))
+        self.label_2.setText(_translate("VideoChatWin", "静音"))
+        self.label_3.setText(_translate("VideoChatWin", "切换到语音聊天"))
+        self.label_4.setText(_translate("VideoChatWin", "音量"))
+

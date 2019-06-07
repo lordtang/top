@@ -1,0 +1,23 @@
+<RCC>
+  <qresource prefix="pic">
+    <file>images/03-19.png</file>
+    <file>images/03-18.png</file>
+    <file>images/03-16.png</file>
+    <file>images/03-17.png</file>
+    <file>images/03-15.png</file>
+    <file>images/03-14.png</file>
+    <file>images/03-1.png</file>
+    <file>images/03-2.png</file>
+    <file>images/03-3.png</file>
+    <file>images/03-4.png</file>
+    <file>images/03-5.png</file>
+    <file>images/03-6.png</file>
+    <file>images/03-7.png</file>
+    <file>images/03-8.png</file>
+    <file>images/03-9.png</file>
+    <file>images/03-10.png</file>
+    <file>images/03-11.png</file>
+    <file>images/03-12.png</file>
+    <file>images/03-13.png</file>
+  </qresource>
+</RCC>
